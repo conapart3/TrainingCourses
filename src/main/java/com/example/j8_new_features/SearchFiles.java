@@ -16,13 +16,13 @@ public class SearchFiles
         try (Stream<String> lines = Files.lines(path)) {
             // a string that might or might not exist
             Optional<String> optional = lines.filter(l -> l.contains(searchTerm)).findFirst();
-            if(optional.isPresent()){
-                System.out.println("Found: "+ optional.get());
+            if (optional.isPresent()) {
+                System.out.println("Found: " + optional.get());
             } else {
                 System.out.println("Not found");
             }
         } catch (Exception e) {
-            System.out.println("ERROR!" +e);
+            System.out.println("ERROR!" + e);
         }
     }
 }

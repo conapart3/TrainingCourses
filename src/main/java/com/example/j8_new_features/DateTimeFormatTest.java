@@ -18,7 +18,7 @@ public class DateTimeFormatTest
         LocalDate currentDate = LocalDate.now();
 
         DateTimeFormatter df = DateTimeFormatter.ISO_DATE;
-        System.out.println("Local date in ISO_DATE format: " +df.format(currentDate));
+        System.out.println("Local date in ISO_DATE format: " + df.format(currentDate));
 
         LocalTime currentTIme = LocalTime.now();
         DateTimeFormatter tf = DateTimeFormatter.ISO_TIME;
