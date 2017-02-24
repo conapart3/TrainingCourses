@@ -1,0 +1,2 @@
+About to perform DB update.
+DB update finished.

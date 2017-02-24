@@ -1,0 +1,6 @@
+This is a test text file
+with multiple lines
+and these CONAL shall be
+read into the java program
+and perhaps you can spot
+my name.
